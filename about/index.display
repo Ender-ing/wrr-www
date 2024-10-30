@@ -1,0 +1,9 @@
+<x-layout>
+    <div slot="group">
+        <x-pane view="full">
+            <h2>{{$organisation.name}}</h2>
+            <divider/>
+            <h3>{{$organisation.description}}</h3>
+        </x-pane>
+    </div>
+</x-layout>

@@ -1,0 +1,70 @@
+<x-layout>
+    <div slot="group">
+        <x-pane view="full">
+            <text>{{title}}</text>
+            <ul>
+                <li>
+                    <a href="https://terminal.ender.ing/" target="_blank">terminal.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://test.ender.ing/" target="_blank">test.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://resources.ender.ing/" target="_blank">resources.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://mta-sts.ender.ing/" target="_blank">mta-sts.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://links.ender.ing/" target="_blank">links.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://docs.ender.ing/" target="_blank">docs.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://authority.ender.ing/" target="_blank">authority.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://account.ender.ing/" target="_blank">account.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://ender.ing/" target="_blank">ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://www.ender.ing/" target="_blank">alt:www.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://crew.ender.ing/" target="_blank">crew.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://sites.ender.ing/" target="_blank">sites.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://chat.ender.ing/" target="_blank">chat.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://mail.ender.ing/" target="_blank">mail.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://email.ender.ing/" target="_blank">alt:email.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://tweaker.ender.ing/" target="_blank">tweaker.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://omni.ender.ing/" target="_blank">omni.ender.ing</a>
+                </li>
+            </ul>
+        </x-pane>
+    </div>
+</x-layout>
