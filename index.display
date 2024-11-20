@@ -8,7 +8,7 @@
         </x-float>
     </div>
     <div slot="group">
-        <x-pane view="full">
+        <x-pane>
             <text>{{projects.title}}</text>
             <ul>
                 <li>
@@ -38,7 +38,7 @@
                 </li>
             </ul>
         </x-pane>
-        <x-pane view="full">
+        <x-pane>
             <text>{{technical.title}}</text>
             <ul>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
             </ul>
         </x-pane>
-        <x-pane view="full">
+        <x-pane>
             <text>{{more.title}}</text>
             <ul>
                 <li>
