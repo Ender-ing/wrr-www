@@ -1,3 +1,13 @@
 {
-    "title": "Here is a list of websites, ordered by priority:"
+    "title": "Welcome to Ender.ing!",
+    "description": "All projects related to the Ender organisation are featured here.",
+    "projects": {
+        "title": "Projects:"
+    },
+    "technical": {
+        "title": "Technical:"
+    },
+    "more": {
+        "title": "More:"
+    }
 }

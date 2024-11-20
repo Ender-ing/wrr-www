@@ -1,25 +1,16 @@
-<x-layout>
+<x-layout view="collapse">
+    <div slot="group" view="static sticky">
+        <!-- You may also custom-set the static width of the group using inline css! -->
+        <!-- Note to self: support dynamic split layout (like https://vaadin.com/docs/latest/components/split-layout) -->
+        <x-float>
+            <h1>{{title}}</h1>
+            <text>{{description}}</text>
+        </x-float>
+    </div>
     <div slot="group">
         <x-pane view="full">
-            <text>{{title}}</text>
+            <text>{{projects.title}}</text>
             <ul>
-                <li>
-                    <a href="https://terminal.ender.ing/" target="_blank">terminal.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://test.ender.ing/" target="_blank">test.ender.ing</a>
-                </li>
-                <br />
-                <li>
-                    <a href="https://resources.ender.ing/" target="_blank">resources.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://mta-sts.ender.ing/" target="_blank">mta-sts.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://links.ender.ing/" target="_blank">links.ender.ing</a>
-                </li>
-                <br />
                 <li>
                     <a href="https://docs.ender.ing/" target="_blank">docs.ender.ing</a>
                 </li>
@@ -44,6 +35,35 @@
                 <br />
                 <li>
                     <a href="https://omni.ender.ing/" target="_blank">omni.ender.ing</a>
+                </li>
+            </ul>
+        </x-pane>
+        <x-pane view="full">
+            <text>{{technical.title}}</text>
+            <ul>
+                <li>
+                    <a href="https://terminal.ender.ing/" target="_blank">terminal.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://test.ender.ing/" target="_blank">test.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://resources.ender.ing/" target="_blank">resources.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://mta-sts.ender.ing/" target="_blank">mta-sts.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://links.ender.ing/" target="_blank">links.ender.ing</a>
+                </li>
+            </ul>
+        </x-pane>
+        <x-pane view="full">
+            <text>{{more.title}}</text>
+            <ul>
+                <li>
+                    <a href="mailto:admin@ender.ing" target="_blank">admin@ender.ing</a>
                 </li>
             </ul>
         </x-pane>
