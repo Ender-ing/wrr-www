@@ -1,6 +1,10 @@
 {
     "title": "Welcome to Ender.ing!",
     "description": "All projects related to the Ender organisation are featured here.",
+    "about": {
+        "title": "About us:",
+        "description": "There is no specific goal for the Ender organisation - if you think it, you can do it!"
+    },
     "projects": {
         "title": "Projects:"
     },

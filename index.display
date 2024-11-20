@@ -6,6 +6,10 @@
             <h1>{{title}}</h1>
             <text>{{description}}</text>
         </x-float>
+        <x-pane>
+            <text>{{about.title}}</text>
+            <p>{{about.description}}</p>
+        </x-pane>
     </div>
     <div slot="group">
         <x-pane>
@@ -20,13 +24,6 @@
                 </li>
                 <li>
                     <a href="https://account.ender.ing/" target="_blank">account.ender.ing</a>
-                </li>
-                <br />
-                <li>
-                    <a href="https://ender.ing/" target="_blank">ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://www.ender.ing/" target="_blank">alt:www.ender.ing</a>
                 </li>
                 <br />
                 <li>
