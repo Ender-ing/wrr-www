@@ -31,6 +31,13 @@
                 </li>
                 <br />
                 <li>
+                    <a href="https://omni.ender.ing/" target="_blank">omni.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://frankie.ender.ing/" target="_blank">frankie.ender.ing</a>
+                </li>
+                <br />
+                <li>
                     <a href="https://authority.ender.ing/" target="_blank">authority.ender.ing</a>
                 </li>
                 <li>
@@ -39,10 +46,6 @@
                 <br />
                 <li>
                     <a href="https://sites.ender.ing/" target="_blank">sites.ender.ing</a>
-                </li>
-                <br />
-                <li>
-                    <a href="https://omni.ender.ing/" target="_blank">omni.ender.ing</a>
                 </li>
             </ul>
         </x-pane>
