@@ -1,6 +1,9 @@
 {
     "title": "Welcome to Ender.ing!",
     "description": "All projects related to the Ender organisation are featured here.",
+    "language": {
+        "only_english": "(Only in English)"
+    },
     "about": {
         "title": "About us:",
         "description": "There is no specific goal for the Ender organisation - if you think it, you can do it!"
@@ -15,7 +18,8 @@
         "title": "Projects:"
     },
     "technical": {
-        "title": "Technical:"
+        "title": "Technical:",
+        "notice": "Notice that technical websites and tools may not be available in all three supported languages! (English, Hebrew, and Arabic)"
     },
     "more": {
         "title": "More:"
