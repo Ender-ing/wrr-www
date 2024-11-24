@@ -13,10 +13,10 @@
         <x-pane>
             <text>{{updates.title}}</text>
             <x-content margin="vertical horizontal">
-                <outlined-icon-button href="https://docs.ender.ing/blog/">
+                <outlined-icon-button name="{{updates.links.blog}}" href="https://docs.ender.ing/blog/">
                     <icon>rss_feed</icon>
                 </outlined-icon-button>
-                <outlined-icon-button href="https://github.com/ender-ing/" target="_blank">
+                <outlined-icon-button name="GitHub" href="https://github.com/ender-ing/" target="_blank">
                     <icon>code</icon>
                 </outlined-icon-button>
             </x-content>
