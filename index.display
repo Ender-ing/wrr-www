@@ -13,12 +13,12 @@
         <x-pane>
             <text>{{updates.title}}</text>
             <x-content margin="vertical horizontal">
-                <icon-button href="https://docs.ender.ing/blog/">
+                <outlined-icon-button href="https://docs.ender.ing/blog/">
                     <icon>rss_feed</icon>
-                </icon-button>
-                <icon-button href="https://github.com/ender-ing/">
+                </outlined-icon-button>
+                <outlined-icon-button href="https://github.com/ender-ing/">
                     <icon>code</icon>
-                </icon-button>
+                </outlined-icon-button>
             </x-content>
         </x-pane>
     </div>
