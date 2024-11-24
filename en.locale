@@ -5,6 +5,9 @@
         "title": "About us:",
         "description": "There is no specific goal for the Ender organisation - if you think it, you can do it!"
     },
+    "updates": {
+        "title": "Stay Updated:"
+    },
     "projects": {
         "title": "Projects:"
     },
