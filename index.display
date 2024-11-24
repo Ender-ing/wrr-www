@@ -66,7 +66,7 @@
                     <a href="https://links.ender.ing/" target="_blank">links.ender.ing</a>
                 </li>
             </ul>
-            <p>{{technical.notice}}<p>
+            <p>{{technical.notice}}</p>
         </x-pane>
         <x-pane>
             <text>{{more.title}}</text>
