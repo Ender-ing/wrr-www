@@ -14,6 +14,9 @@
             "blog": "مدونة"
         }
     },
+    "preferences": {
+        "title": "التفضيلات:"
+    },
     "projects": {
         "title": "المشاريع:"
     },

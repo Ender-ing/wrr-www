@@ -21,6 +21,12 @@
                 </outlined-icon-button>
             </x-content>
         </x-pane>
+        <x-pane>
+            <x-content>
+                <text>{{preferences.title}}</text>
+                <$lang-selector />
+            </x-content>
+        </x-pane>
     </div>
     <div slot="group">
         <x-pane>
@@ -31,21 +37,21 @@
                 </li>
                 <br />
                 <li>
-                    <a href="https://omni.ender.ing/" target="_blank">omni.ender.ing</a>
+                    <a href="https://omni.ender.ing/" target="_blank" disabled="">omni.ender.ing</a>
                 </li>
                 <li>
-                    <a href="https://frankie.ender.ing/" target="_blank">frankie.ender.ing</a>
-                </li>
-                <br />
-                <li>
-                    <a href="https://authority.ender.ing/" target="_blank">authority.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://account.ender.ing/" target="_blank">account.ender.ing</a>
+                    <a href="https://frankie.ender.ing/" target="_blank" disabled="">frankie.ender.ing</a>
                 </li>
                 <br />
                 <li>
-                    <a href="https://sites.ender.ing/" target="_blank">sites.ender.ing</a>
+                    <a href="https://authority.ender.ing/" target="_blank" disabled="">authority.ender.ing</a>
+                </li>
+                <li>
+                    <a href="https://account.ender.ing/" target="_blank" disabled="">account.ender.ing</a>
+                </li>
+                <br />
+                <li>
+                    <a href="https://sites.ender.ing/" target="_blank" disabled="">sites.ender.ing</a>
                 </li>
             </ul>
         </x-pane>
@@ -66,7 +72,7 @@
                     <a href="https://mta-sts.ender.ing/" target="_blank">mta-sts.ender.ing</a>
                 </li>
                 <li>
-                    <a href="https://links.ender.ing/" target="_blank">links.ender.ing</a>
+                    <a href="https://links.ender.ing/" target="_blank" disabled="">links.ender.ing</a>
                 </li>
             </ul>
             <p>{{technical.notice}}</p>

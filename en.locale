@@ -14,6 +14,9 @@
             "blog": "Blog"
         }
     },
+    "preferences": {
+        "title": "Preferences:"
+    },
     "projects": {
         "title": "Projects:"
     },
