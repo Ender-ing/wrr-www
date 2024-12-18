@@ -25,6 +25,7 @@
             <x-content>
                 <text>{{preferences.title}}</text>
                 <$lang-selector />
+                <$theme-selector />
             </x-content>
         </x-pane>
     </div>
