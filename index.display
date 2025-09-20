@@ -35,24 +35,6 @@
                 <li>
                     <a href="https://docs.ender.ing/" target="_blank">docs.ender.ing</a> {{language.only_english}}
                 </li>
-                <br />
-                <li>
-                    <a href="https://omni.ender.ing/" target="_blank" disabled="">omni.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://frankie.ender.ing/" target="_blank" disabled="">frankie.ender.ing</a>
-                </li>
-                <br />
-                <li>
-                    <a href="https://authority.ender.ing/" target="_blank" disabled="">authority.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://account.ender.ing/" target="_blank" disabled="">account.ender.ing</a>
-                </li>
-                <br />
-                <li>
-                    <a href="https://sites.ender.ing/" target="_blank" disabled="">sites.ender.ing</a>
-                </li>
             </ul>
         </x-pane>
         <x-pane>
@@ -70,9 +52,6 @@
                 </li>
                 <li>
                     <a href="https://mta-sts.ender.ing/" target="_blank">mta-sts.ender.ing</a>
-                </li>
-                <li>
-                    <a href="https://links.ender.ing/" target="_blank" disabled="">links.ender.ing</a>
                 </li>
             </ul>
             <p>{{technical.notice}}</p>
