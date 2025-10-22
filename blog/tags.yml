@@ -1,0 +1,36 @@
+endering:
+  label: Endering
+  permalink: /endering
+  description: Ender.ing organisation updates!
+
+personal:
+  label: Personal
+  permalink: /personal
+  description: Personal staff updates!
+
+casual:
+  label: Casual
+  permalink: /casual
+  description: Casual updates!
+
+important:
+  label: Important
+  permalink: /important
+  description: Important updates!
+
+web-related:
+  label: Web
+  permalink: /web-related
+  description: Related to the web presence of Ender.ing!
+
+# Projects
+
+project-omniarium:
+  label: Omniarium
+  permalink: /project-omniarium
+  description: Related to the Omniarium computer language!
+
+project-polar-frankie:
+  label: PolarFrankie
+  permalink: /project-polar-frankie
+  description: Related to the PolarFrankie command line scripting language!
