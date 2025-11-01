@@ -91,12 +91,18 @@ const config = {
           src: 'assets/img/logo.svg',
         },
         items: [
-          /* {
+          {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'contributionSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },*/
+            label: 'Contribution Guide',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'polarFrankieSidebar',
+            position: 'left',
+            label: 'PolarFrankie',
+          },
           {
             to: '/blog',
             label: 'Blog',
