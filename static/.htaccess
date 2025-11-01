@@ -8,11 +8,11 @@ RewriteEngine On
 
 ##START-SYNC
 # Set error documents
-ErrorDocument 401 /404.html.html
-ErrorDocument 402 /error.html
-ErrorDocument 403 /error.html
+ErrorDocument 401 /internal-error.html
+ErrorDocument 402 /internal-error.html
+ErrorDocument 403 /internal-error.html
 ErrorDocument 404 /404.html
-ErrorDocument 500 /error.html
+ErrorDocument 500 /internal-error.html
 ##END-SYNC
 
 # Force HTTPS/SSL

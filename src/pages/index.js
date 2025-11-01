@@ -1,14 +1,14 @@
-import clsx from 'clsx';
+//import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
+//import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+//import Layout from '@theme/Layout';
 
 
 import PresentationMain from './presentation/main.js';
 
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
+  //const { siteConfig } = useDocusaurusContext();
   return (
     <>
       <PresentationMain>

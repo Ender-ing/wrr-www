@@ -87,20 +87,32 @@
 }
 
 #cover-logo-body {
-    opacity: 0;
+    opacity: 1;
     animation: fadeIn .3s ease forwards;
 }
 
 #cover-logo-body[data-show=false],
+#cover-logo-body[data-show=false]>#cover-logo-back-wrapper,
 #cover-logo-body[data-show=false]>#cover-logo-back,
+#cover-logo-body[data-show=false]>#cover-logo-front-wrapper,
 #cover-logo-body[data-show=false]>#cover-logo-front,
 #cover-logo-body[data-show=false]>#cover-logo-outer-eye,
 #cover-logo-body[data-show=false]>#cover-logo-inner-eye {
     display: none;
 }
 
+#cover-logo-back-wrapper {
+    transform-origin: top left;
+    animation: coverLogoBackWrapper .6s cubic-bezier(.5, 1, 0.1, 1.4) forwards;
+}
+
 #cover-logo-back {
     animation: coverLogoBack 10s ease infinite;
+}
+
+#cover-logo-front-wrapper {
+    transform-origin: top left;
+    animation: coverLogoFrontWrapper .6s cubic-bezier(.5, 1, 0.1, 1.4) forwards;
 }
 
 #cover-logo-front {
@@ -119,7 +131,7 @@
 #cover-logo-body[data-show=true]>#cover-logo-front,
 #cover-logo-body[data-show=true]>#cover-logo-outer-eye,
 #cover-logo-body[data-show=true]>#cover-logo-inner-eye {
-    animation-delay: 3s;
+    animation-delay: .1s;
 }
 
 @keyframes coverLogo {
@@ -195,6 +207,24 @@
 
     5% {
         transform: rotate(.2deg);
+    }
+}
+
+@keyframes coverLogoFrontWrapper {
+    from {
+        transform: rotateX(8deg) rotateZ(1deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes coverLogoBackWrapper {
+    from {
+        transform: rotateZ(-1deg);
+    }
+    to {
+        transform: rotateZ(0deg);
     }
 }
 

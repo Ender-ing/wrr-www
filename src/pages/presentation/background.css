@@ -650,10 +650,12 @@
 @keyframes backgroundScroll {
     from {
         transform: translateY(0px);
+        filter: blur(0px) brightness(1);
     }
 
     to {
         transform: translateY(-5vh);
+        filter: blur(1px) brightness(0.75);
     }
 }
 
