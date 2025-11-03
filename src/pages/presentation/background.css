@@ -1,4 +1,3 @@
-
 .fill-screen,
 #presentation-background,
 #presentation-background:after {
@@ -16,7 +15,8 @@
 }
 
 #presentation-background,
-#presentation-background:after {
+#presentation-background:after,
+#presentation-background:before {
     display: block;
     position: fixed;
     top: 0px;
@@ -32,13 +32,26 @@
     background: linear-gradient(324deg, rgba(1, 0, 23, 1) 0%, rgba(2, 2, 36, 1) 43%, rgba(11, 0, 15, 1) 100%);
 }
 
-#presentation-background[data-show=true]:after {
+#presentation-background[data-show=true]:after,
+#presentation-background[data-show=true]:before {
     content: "";
     background: transparent;
-    background: linear-gradient(324deg, rgba(1, 0, 23, 0) 0%, rgba(24, 5, 48, 0.8) 50%, rgba(11, 0, 15, 0) 100%);
-    opacity: .4;
-    animation: animColour 4s linear infinite;
+    width: max(200vw, 200vh);
+    opacity: 0;
+    animation: animColour 20s ease-in infinite;
+    transform: rotate(-45deg);
     z-index: -1;
+}
+
+#presentation-background[data-show=true]:after {
+    background: linear-gradient(324deg, rgba(1, 0, 23, 0) 0%, rgba(32, 5, 48, 0.466) 50%, rgba(11, 0, 15, 0) 100%);
+    margin-left: -10vw;
+}
+
+#presentation-background[data-show=true]:before {
+    background: linear-gradient(324deg, rgba(1, 0, 23, 0) 0%, rgba(24, 5, 48, 0.8) 50%, rgba(11, 0, 15, 0) 100%);
+    margin-left: -65vw;
+    animation-delay: 0.4s;
 }
 
 #presentation-background>.collection {
@@ -54,7 +67,7 @@
 #presentation-background[data-show=true]:after,
 #presentation-background[data-show=true]>.collection {
     opacity: 0;
-    animation-delay: 1s;
+    animation-delay: 0.2s;
 }
 
 
@@ -168,7 +181,7 @@
         1983px 826px #999, 292px 484px #999, 1177px 1229px #999, 253px 1515px #999,
         846px 881px #999, 428px 1934px #999, 1992px 565px #999, 475px 1350px #999,
         63px 758px #999, 1225px 1671px #999, 1106px 1373px #999, 1052px 648px #999;
-    animation: animStarSmall1 2800s linear infinite;
+    animation: animStarSmall1 2800s ease-in infinite;
 }
 
 #presentation-background>.small-stars-1:after {
@@ -351,7 +364,7 @@
         817px 842px 1px #bbb, 492px 1455px 1px #bbb, 1608px 969px 1px #bbb, 1202px 433px 1px #bbb,
         1734px 355px 1px #bbb, 913px 812px 1px #bbb, 932px 1859px 1px #bbb, 217px 530px 1px #bbb,
         214px 583px 1px #bbb, 922px 1897px 1px #bbb, 665px 1261px 1px #bbb, 522px 1477px 1px #bbb;
-    animation: animStarSmall2 2700s linear infinite;
+    animation: animStarSmall2 2700s ease-in infinite;
 }
 
 #presentation-background>.small-stars-2:after {
@@ -474,7 +487,7 @@
         732px 344px 2px #ddd, 1635px 377px 2px #ddd, 961px 1417px 2px #ddd, 1818px 1480px 2px #ddd,
         1060px 515px 2px #ddd, 508px 1902px 2px #ddd, 1971px 601px 2px #ddd, 1952px 729px 2px #ddd,
         800px 121px 2px #ddd;
-    animation: animStar 400s linear infinite;
+    animation: animStar 400s ease-in infinite;
 }
 
 #presentation-background>.stars2:after {
@@ -529,7 +542,7 @@
         1598px 572px 2px #fff, 766px 445px 2px #fff, 708px 683px 2px #fff, 116px 770px 2px #fff,
         1586px 1279px 2px #fff, 24px 746px 2px #fff, 258px 1120px 2px #fff, 1369px 1280px 2px #fff,
         1996px 478px 2px #fff, 1063px 475px 2px #fff, 973px 752px 2px #fff, 421px 648px 2px #fff;
-    animation: animStar 200s linear infinite;
+    animation: animStar 200s ease-in infinite;
 }
 
 #presentation-background>.stars3:after {
@@ -634,15 +647,26 @@
 
 @keyframes animColour {
     0% {
-        opacity: .2;
+        opacity: 0;
+        background-position: -50px 0px;
+    }
+
+    5% {
+        opacity: .4;
     }
 
     50% {
+        background-position: 50px 0px;
         opacity: .8;
     }
 
+    95% {
+        opacity: .4;
+    }
+
     100% {
-        opacity: .2;
+        opacity: 0;
+        background-position: -50px 0px;
     }
 }
 
