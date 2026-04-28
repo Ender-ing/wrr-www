@@ -14,6 +14,15 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'assets/img/favicon.ico',
 
+  markdown: {
+    format: 'detect',
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -78,7 +87,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'assets/img/social-card.png',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
@@ -99,9 +108,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'polarFrankieSidebar',
+            sidebarId: 'juggernyautSidebar',
             position: 'left',
-            label: 'PolarFrankie',
+            label: 'Juggernyaut',
           },
           {
             to: '/blog',
@@ -131,8 +140,8 @@ const config = {
             title: 'Projects',
             items: [
               {
-                label: 'PolarFrankie',
-                to: '/docs/frankie/intro/',
+                label: 'Juggernyaut',
+                to: '/docs/jug/guide/',
               },
             ],
           },

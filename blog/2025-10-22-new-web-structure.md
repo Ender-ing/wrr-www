@@ -1,7 +1,7 @@
 ---
 title: New web design!
 authors: 0xENDER
-tags: [endering, important]
+tags: [endering, web-related]
 ---
 
 Explaining the change of the website's design and the reasons behind this change:

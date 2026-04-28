@@ -1,7 +1,7 @@
 ---
 title: Unstable Development
 authors: 0xENDER
-tags: [casual, personal]
+tags: [casual]
 ---
 
 ***Unstable development cycle due to lack of commitment!***

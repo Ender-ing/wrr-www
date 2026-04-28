@@ -32,7 +32,7 @@ GitHub projects have a naming scheme that follows these rules:
 
 Here is a list of all projects, including their status and relevant resources:
 
-### Website
+### Main Website
 
 - Status: **In progress**
 - Website(s): [ender.ing](https://ender.ing), [terminal.ender.ing](https://terminal.ender.ing)
@@ -51,48 +51,15 @@ Here is a list of all projects, including their status and relevant resources:
     secrets!
   - [/host](https://github.com/Ender-ing/host) (**private**): Used to keep track of web server file updates
 
-### PolarFrankie
+### Juggernyaut
 
 - Status: **In progress**
-- Website(s): [frankie.ender.ing](https://frankie.ender.ing)
-- Description: A command line scripting language with safety and presentability in mind!
+- Website(s): [ender.ing](https://ender.ing)
+- Description: An experimental general-purpose programming language in the making!
 - GitHub Projects:
   *none*
 - GitHub Repositories:
-  - [/frankie](https://github.com/Ender-ing/frankie): Contains all planning & language files for PolarFrankie
-
-### Omniarium
-
-- Status: **Temporarily Halted**
-- Website(s):
-  *none*
-- Description: Write once, run everywere! Use the same codebase for multiple common targets!
-- GitHub Projects:
-  *none*
-- GitHub Repositories:
-  - [/omni](https://github.com/Ender-ing/omni): Contains all planning & language files for Omniarium
-
-### Purrse
-
-- Status: **Temporarily Discontinued**
-- Website(s):
-  *none*
-- Description: A tracking app meant to help you "purrrsue" your financial goals!
-- GitHub Projects:
-  *none*
-- GitHub Repositories:
-  - [/purrse (archived)](https://github.com/Ender-ing/purrse): Contains all planning & codebase files for Purrse
-
-### Accounts System
-
-- Status: **Pending**
-- Website(s):
-  *none*
-- Description: A PKI-based accounts system meant for use across all projects/services
-- GitHub Projects:
-  - [Accounts System](https://github.com/orgs/Ender-ing/projects/1): Tracking PKI and accounts system progress
-- GitHub Repositories:
-  *none*
+  - [/Juggernyaut](https://github.com/Ender-ing/Juggernyaut): Contains all toolchain files
 
 <!--
 ### ?
@@ -123,45 +90,14 @@ Each project may use its own set of programming languages. Generally, each used 
 
 A content guide defines what is to be considered valid content, depending on the type of said content.
 
-:::danger
-You **must** make sure to follow these strict Unicode Character limitations
-(*for [Private Use Area (PUA) characters](https://en.wikipedia.org/wiki/Private_Use_Areas) -
-`U+E000` to `U+F8FF`*) in all of the organisation's projects:
-
-- The characters `U+E0DE` (for the **start**) and `U+E1DE` (for the **end**) are used to mark the
-start and end of a PUA use - a *PUA wrap* if you will!
-- All characters within the range `U+E0DE` to `U+E1DE` - *excluding the head and tail* - are
-**forbidden** inside of a *PUA wrap*! You can use them outside a *PUA wrap*!
-- All characters within the range `U+E200` to `U+E2FF` are reserved for web-based usage!
-  (be it tools that build the raw web files, or the web files themselves)
-- All characters within the range `U+E300` to `U+E6FF` are reserved for the *Omniarium transpiler*!
-  (These characters are allowed within *Omniarium source files*, but **only if** you do not wrap
-  them with the *PUA wrap* used by this organisation!)
-
-**If you wish to use *PUA* characters that are not included within any range in the previous rules,
-you must first add a rule to specify the reserved range for the project that belongs to this
-organisation!**
-:::
-
-:::tip
-You may use the online [Unicode Hex converter](https://test.ender.ing/tools/unicode-hex-converter/) for help with
-unicode-related values!
-:::
-
 ### Client Content
 
 All content meant to be served in user-friendly settings (e.g. website UI) falls under the following guidelines:
 
-- Content must be served in English, Arabic, and Hebrew. The contribution will not be accepted until served content is
-available in all languages! (*you may ask maintainers to fill in the missing languages for you when you open a pull
-request*)
+- Content must be served in Standard English.
 - Content language translations should be done by hand! **You are not allowed to use non-proofread machine-generated
 translations!**
-- Illustrations and UI design should follow the [Material Design Guidelines](https://m3.material.io/)!
-
-:::note
-Documentation is not required to follow language-related content guidelines. It can be written only in English!
-:::
+- Illustrations and UI design should follow a *consistent design*!
 
 ### Developer Content
 

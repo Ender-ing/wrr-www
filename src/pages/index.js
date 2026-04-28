@@ -22,8 +22,8 @@ export default function Home() {
           Contribution Guide
         </Link>
         <Link className="button button--secondary button--lg"
-          to="/docs/frankie/intro">
-          PolarFrankie
+          to="/docs/jug/guide">
+          Juggernyaut
         </Link>
       </PresentationMain>
     </>

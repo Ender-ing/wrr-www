@@ -13,11 +13,6 @@ casual:
   permalink: /casual
   description: Casual updates!
 
-important:
-  label: Important
-  permalink: /important
-  description: Important updates!
-
 web-related:
   label: Web
   permalink: /web-related
@@ -25,12 +20,12 @@ web-related:
 
 # Projects
 
-project-omniarium:
-  label: Omniarium
-  permalink: /project-omniarium
-  description: Related to the Omniarium computer language!
+dropped-project:
+  label: (dropped project)
+  permalink: /dropped-projects
+  description: Old posts of dropped projects
 
-project-polar-frankie:
-  label: PolarFrankie
-  permalink: /project-polar-frankie
-  description: Related to the PolarFrankie command line scripting language!
+project-jugger:
+  label: Juggernyaut
+  permalink: jug
+  description: Juggernyaut language posts

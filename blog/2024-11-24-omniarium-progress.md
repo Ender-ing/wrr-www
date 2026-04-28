@@ -1,7 +1,7 @@
 ---
 title: Omniarium and PolarFrankie!
 authors: 0xENDER
-tags: [endering, personal, important, project-omniarium, project-polar-frankie]
+tags: [endering, casual, dropped-project]
 ---
 
 A notice regarding the current development direction for Omniarium:

@@ -1,0 +1,8 @@
+{
+    "label": "Statements",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Statements represent actions taken by the compiler:"
+    }
+}
