@@ -35,6 +35,10 @@ For the purposes of this Privacy Policy:
 
 ## Collecting and Using Your Personal Information
 
+### Statutory Notice under Israeli Law
+
+Please note that You are under no legal obligation to provide Us with any Personal Data. Any Personal Data You provide is given entirely of Your own free will and by Your explicit consent. However, failing to provide certain information (such as Account registration details) may prevent You from using specific features of the Service.
+
 ### Types of Data Collected
 
 #### Personal Data
@@ -77,6 +81,13 @@ The Company may use Personal Data for the following purposes:
 - __For business transfers:__ To evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets.
 - __For other purposes__: Such as data analysis, identifying usage trends, and evaluating and improving Our Service, marketing, and Your experience. 
 
+### Disclosure of Your Personal Data
+
+To fulfill the purposes outlined above, We may deliver or share Your information with the following categories of third parties:
+
+- __Service Providers:__ Third-party vendors who provide IT, hosting, analytics, and customer support services on Our behalf.
+- __Law Enforcement & Legal Obligations:__ We may disclose Your Personal Data if required to do so by law, in response to valid requests by public authorities (e.g., a court or government agency), or to protect the legal rights and safety of the Company and its users.
+
 ### Legal Basis for Processing (GDPR)
 
 If You are from the European Economic Area (EEA) or the United Kingdom (UK), Our legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data We collect and the specific context in which We collect it. We may process Your Personal Data because:
@@ -100,6 +111,17 @@ When retention periods expire, We securely delete or anonymize Personal Data.
 Your information is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This information may be transferred to computers located outside of Your jurisdiction where data protection laws may differ.
 
 If You are a resident of the EEA or UK, We ensure that international transfers of Your Personal Data are subject to appropriate safeguards, such as Standard Contractual Clauses (SCCs) approved by the European Commission or equivalent supplementary measures.
+
+## Account and Data Deletion
+
+If Our Application allows You to create an Account, You have the right to request the complete deletion of Your Account and all associated Personal Data. 
+
+You can initiate an account deletion request through the following methods:
+
+- __In-App:__ By navigating to the Account settings within the Application and selecting the "Delete Account" option.
+- __Web Resource:__ By submitting a deletion request via Our website or by emailing Us directly at admin@ender.ing with the subject line "Account Deletion Request."
+
+Upon receiving a verified request, We will securely delete or anonymize Your Account and associated Personal Data from Our active databases, except for data We are legally required to retain.
 
 ## Your Data Protection Rights Under GDPR
 
