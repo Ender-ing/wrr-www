@@ -111,6 +111,12 @@ const config = {
             label: 'Juggernyaut',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'legalSidebar',
+            position: 'right',
+            label: 'legal',
+          },
+          {
             to: '/blog',
             label: 'Blog',
             position: 'right',
